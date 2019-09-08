@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -g  -Wl,--enable-auto-import CMakeFiles/laob09.dir/lab09main.c.o CMakeFiles/laob09.dir/lab09functs.c.o  -o laob09.exe -Wl,--out-implib,liblaob09.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

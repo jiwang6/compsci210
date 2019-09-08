@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="myExe" targetName="lab10" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b87ef47a-9aaf-4494-a15d-401b4a2c4e4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab09/cmake-build-debug/CMakeFiles/laob09.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab09/cmake-build-debug/CMakeFiles/laob09.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab09/cmake-build-debug/CMakeFiles/laob09.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab09/cmake-build-debug/CMakeFiles/laob09.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab09/cmake-build-debug/CMakeFiles/laob09.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab09/cmake-build-debug/CMakeFiles/laob09.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab09/cmake-build-debug/CMakeFiles/laob09.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab10/lab10functs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab10/lab10functs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab10/lab10main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab09/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab09/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1QYytyBk8kZqkHxLWBGTwhgHl24" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labs/Lab10" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="lab10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myExe" TARGET_NAME="lab10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="myExe" RUN_TARGET_NAME="lab10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b87ef47a-9aaf-4494-a15d-401b4a2c4e4c" name="Default Changelist" comment="" />
+      <created>1567962042764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567962042764</updated>
+      <workItem from="1567962043973" duration="7225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

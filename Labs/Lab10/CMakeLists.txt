@@ -16,13 +16,11 @@ set(CMAKE_C_FLAGS "-Wall")
 
 # List all files that are required to compile your project
 set(SOURCE_FILES
-        ${SDIR}lab09main.c
-        ${SDIR}lab09functs.c
-        ${SDIR}lab09functs.h
-        #${SDIR}lab09unitTest.c
-        #${SDIR}lab09fixMe.c
+        ${SDIR}lab10main.c
+        ${SDIR}lab10functs.c
+        ${SDIR}lab10functs.h
         )
 
 # Tell cmake the name of your executable and what source files to
 # build from
-add_executable(laob09 ${SOURCE_FILES})
+add_executable(lab10 ${SOURCE_FILES})
