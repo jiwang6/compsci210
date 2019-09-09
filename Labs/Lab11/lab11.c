@@ -67,27 +67,18 @@ int isPrime(int primeNum) {
     return ind;
 }
 
-void floydsTriangle(int rowNum) {
+void floydsTriangle (int floyd) {
     int i;
+    int count = 1;
     int j;
-
-    for (i = 0; i < rowNum; i++) { //i just want an A
-        for (j = 0; j <= i; j++) {
-            if (i % 2 == 0) {
-                if (j % 2 == 0) {
-                    printf("%d", 1);
-                } else {
-                    printf("%d", 0);
-                }
-            } else {
-                if (j % 2 != 0) {
-                    printf("%d", 1);
-                } else {
-                    printf("%d", 0);
-                }
-            }
+    for (i = 1; i <= floyd; i++) {
+        for (j = 0; j < i; j++) {
+            printf("%d", count % 2);
+            count++;
+        }
+        if (i % 2 == 0) {
+            count++;
         }
         printf("\n");
-
     }
 }
