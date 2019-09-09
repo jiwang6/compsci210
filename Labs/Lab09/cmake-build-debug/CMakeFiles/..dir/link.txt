@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -g  -Wl,--enable-auto-import CMakeFiles/..dir/lab09main.c.o CMakeFiles/..dir/lab09functs.c.o  -o ..exe -Wl,--out-implib,lib..dll.a -Wl,--major-image-version,0,--minor-image-version,0 
