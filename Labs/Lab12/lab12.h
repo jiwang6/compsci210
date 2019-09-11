@@ -5,4 +5,10 @@
 #ifndef LAB12_LAB12_H
 #define LAB12_LAB12_H
 
+#include <stdio.h>
+
+int isArmstrong();
+int findGCD();
+void printRange();
+
 #endif //LAB12_LAB12_H
