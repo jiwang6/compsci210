@@ -13,3 +13,6 @@ switches.
 
 ### Lab11
 For loop practice. I'm unreasonably proud of the Floyd's Triangle code.
+
+### Lab12
+While loop practice. Nothing special about this lab.
