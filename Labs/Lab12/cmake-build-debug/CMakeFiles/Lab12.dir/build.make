@@ -57,27 +57,27 @@ include CMakeFiles/Lab12.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab12.dir/flags.make
 
-CMakeFiles/Lab12.dir/main.c.o: CMakeFiles/Lab12.dir/flags.make
-CMakeFiles/Lab12.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Lab12.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab12.dir/main.c.o   -c /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/main.c
+CMakeFiles/Lab12.dir/lab12.c.o: CMakeFiles/Lab12.dir/flags.make
+CMakeFiles/Lab12.dir/lab12.c.o: ../lab12.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Lab12.dir/lab12.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab12.dir/lab12.c.o   -c /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/lab12.c
 
-CMakeFiles/Lab12.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab12.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/main.c > CMakeFiles/Lab12.dir/main.c.i
+CMakeFiles/Lab12.dir/lab12.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab12.dir/lab12.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/lab12.c > CMakeFiles/Lab12.dir/lab12.c.i
 
-CMakeFiles/Lab12.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab12.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/main.c -o CMakeFiles/Lab12.dir/main.c.s
+CMakeFiles/Lab12.dir/lab12.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab12.dir/lab12.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/lab12.c -o CMakeFiles/Lab12.dir/lab12.c.s
 
 # Object files for target Lab12
 Lab12_OBJECTS = \
-"CMakeFiles/Lab12.dir/main.c.o"
+"CMakeFiles/Lab12.dir/lab12.c.o"
 
 # External object files for target Lab12
 Lab12_EXTERNAL_OBJECTS =
 
-Lab12.exe: CMakeFiles/Lab12.dir/main.c.o
+Lab12.exe: CMakeFiles/Lab12.dir/lab12.c.o
 Lab12.exe: CMakeFiles/Lab12.dir/build.make
 Lab12.exe: CMakeFiles/Lab12.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Lab12.exe"

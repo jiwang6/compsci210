@@ -123,32 +123,32 @@ Lab12/fast:
 	$(MAKE) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/build
 .PHONY : Lab12/fast
 
-main.o: main.c.o
+lab12.o: lab12.c.o
 
-.PHONY : main.o
+.PHONY : lab12.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/main.c.o
-.PHONY : main.c.o
+lab12.c.o:
+	$(MAKE) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/lab12.c.o
+.PHONY : lab12.c.o
 
-main.i: main.c.i
+lab12.i: lab12.c.i
 
-.PHONY : main.i
+.PHONY : lab12.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/main.c.i
-.PHONY : main.c.i
+lab12.c.i:
+	$(MAKE) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/lab12.c.i
+.PHONY : lab12.c.i
 
-main.s: main.c.s
+lab12.s: lab12.c.s
 
-.PHONY : main.s
+.PHONY : lab12.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/main.c.s
-.PHONY : main.c.s
+lab12.c.s:
+	$(MAKE) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/lab12.c.s
+.PHONY : lab12.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab12"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... lab12.o"
+	@echo "... lab12.i"
+	@echo "... lab12.s"
 .PHONY : help
 
 

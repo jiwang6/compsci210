@@ -71,6 +71,7 @@ void floydsTriangle (int floyd) {
     int i;
     int count = 1;
     int j;
+
     for (i = 1; i <= floyd; i++) {
         for (j = 0; j < i; j++) {
             printf("%d", count % 2);

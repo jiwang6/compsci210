@@ -74,7 +74,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/main.c">
+		<Unit filename="/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/lab12.c">
+			<Option target="Lab12"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/lab12.h">
 			<Option target="Lab12"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab12/CMakeLists.txt">
