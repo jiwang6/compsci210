@@ -1,4 +1,4 @@
-/** lab09.c
+/** lab09main.c
 * ===========================================================
 * Name: C3C Jim Wang, 04 September 2019
 * Section: T3A
@@ -8,11 +8,10 @@
 */
 
 /**   ----------------------------------------------------------
-* <high level description of purpose of the function
-* including what the parameters are used for>
-* @param <explanation of each of the function parameters>
-* @return <explanation of what the function returns>
-*/
+ * volumeCylinder: computes cylinder volume from user parameters cylRadius (radius) and cylHeight (height)
+ * volBox: computes box volume from user parameters boxWidth, boxHeight, and boxDepth
+ * degToRad: converts user parameter degreeVal (number of degrees) to number of radians
+ */
 
 #include <stdio.h>
 #include "lab09functs.h"

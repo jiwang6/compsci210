@@ -1,17 +1,10 @@
-/** lab10.c
+/** lab10main.c
 * ===========================================================
 * Name: C3C Jim Wang, 08 September 2019
 * Section: T3A
 * Project: Lab10.c
 * Purpose: Practice Clion
 * ===========================================================
-*/
-
-/**   ----------------------------------------------------------
-* <high level description of purpose of the function
-* including what the parameters are used for>
-* @param <explanation of each of the function parameters>
-* @return <explanation of what the function returns>
 */
 
 #include "lab10functs.h"
