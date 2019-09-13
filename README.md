@@ -20,6 +20,9 @@ For loop practice. I'm unreasonably proud of the Floyd's Triangle code.
 ### Lab12
 While loop practice. Nothing special about this lab.
 
+### Lab13
+Pointer practice. This sucks.
+
 ## PEX
 What does PEX really stand for? No one really knows.
 These are projects that aren't really attached to any particular lesson.
