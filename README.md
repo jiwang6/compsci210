@@ -28,4 +28,10 @@ What does PEX really stand for? No one really knows.
 These are projects that aren't really attached to any particular lesson.
 
 ### PEX1
-Pigs!
+Pigs! It's a gambling man's game and a boring one at that. Finished in one afternoon
+so there's barely any documentation, which I'll need to fix. GG No Re, I hate auto 
+grader.
+
+Also, there were some functions that would've worked WAY BETTER with pass by reference 
+functions! We already did that so why didn't zybooks allow it? only the dean knows
+and he left on Friday.

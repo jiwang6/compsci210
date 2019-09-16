@@ -9,7 +9,7 @@
 
 #include "pex1.h"
 
-int main() { //WHILE AND BREAK
+int main() {
     printf("Pig!\n\n");
 
     /* function testing
