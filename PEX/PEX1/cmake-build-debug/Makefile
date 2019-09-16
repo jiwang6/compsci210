@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/C22Jim.Wang/.CLion2019.2/system/cygwin_cmake/bin/cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX01
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX01/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX01/cmake-build-debug/CMakeFiles /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX01/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1/cmake-build-debug/CMakeFiles /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX01/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PEX01
+# Target rules for targets named PEX1
 
 # Build rule for target.
-PEX01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PEX01
-.PHONY : PEX01
+PEX1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PEX1
+.PHONY : PEX1
 
 # fast build rule for target.
-PEX01/fast:
-	$(MAKE) -f CMakeFiles/PEX01.dir/build.make CMakeFiles/PEX01.dir/build
-.PHONY : PEX01/fast
+PEX1/fast:
+	$(MAKE) -f CMakeFiles/PEX1.dir/build.make CMakeFiles/PEX1.dir/build
+.PHONY : PEX1/fast
 
-main.o: main.c.o
+pex1.o: pex1.c.o
 
-.PHONY : main.o
+.PHONY : pex1.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/PEX01.dir/build.make CMakeFiles/PEX01.dir/main.c.o
-.PHONY : main.c.o
+pex1.c.o:
+	$(MAKE) -f CMakeFiles/PEX1.dir/build.make CMakeFiles/PEX1.dir/pex1.c.o
+.PHONY : pex1.c.o
 
-main.i: main.c.i
+pex1.i: pex1.c.i
 
-.PHONY : main.i
+.PHONY : pex1.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/PEX01.dir/build.make CMakeFiles/PEX01.dir/main.c.i
-.PHONY : main.c.i
+pex1.c.i:
+	$(MAKE) -f CMakeFiles/PEX1.dir/build.make CMakeFiles/PEX1.dir/pex1.c.i
+.PHONY : pex1.c.i
 
-main.s: main.c.s
+pex1.s: pex1.c.s
 
-.PHONY : main.s
+.PHONY : pex1.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/PEX01.dir/build.make CMakeFiles/PEX01.dir/main.c.s
-.PHONY : main.c.s
+pex1.c.s:
+	$(MAKE) -f CMakeFiles/PEX1.dir/build.make CMakeFiles/PEX1.dir/pex1.c.s
+.PHONY : pex1.c.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... PEX01"
+	@echo "... PEX1"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... pex1.o"
+	@echo "... pex1.i"
+	@echo "... pex1.s"
 .PHONY : help
 
 

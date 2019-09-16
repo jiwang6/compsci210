@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/PEX01.dir/main.c.o  -o PEX01.exe -Wl,--out-implib,libPEX01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

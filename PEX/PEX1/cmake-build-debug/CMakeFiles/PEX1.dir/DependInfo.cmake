@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX01/main.c" "/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX01/cmake-build-debug/CMakeFiles/PEX01.dir/main.c.o"
+  "/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1/pex1.c" "/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1/cmake-build-debug/CMakeFiles/PEX1.dir/pex1.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

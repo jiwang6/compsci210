@@ -54,7 +54,7 @@ void swapPassByValue(int classYear, int favNumber) {
 
 int pointerSum(int* num1, int* num2) {
 
-    return *num1 + *num2;
+    return *num1 + *cd .num2;
 
 }
 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1/pex1.c
+pex1.h
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1/pex1.h
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX1/pex1.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
