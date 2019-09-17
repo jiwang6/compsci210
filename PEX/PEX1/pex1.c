@@ -29,9 +29,9 @@ int main() {
     int playerNum = 0; // identifier for current player
     int score0 = 0; // total score of player 0
     int score1 = 0; // total score of player 1
+    int turnCount = 0; // number of turns
 
-
-    while(score0 < 100 && score1 < 100) {
+    while(score0 < 100 && score1 < 100 && turnCount <40 ) {
         int playerChoose = 0; // player choose to roll again?
         int playerRoll; // what did the player roll?
         int turnTotal = 0; // how many points are accumulating
@@ -77,7 +77,17 @@ int main() {
             playerNum = 0;
         }
 
-        gameStatus(playerNum, score0, score1);
+        turnCount++;
+
+        if (turnCount < 40){
+            gameStatus(playerNum, score0, score1);
+        } else if (score0 > score1) {
+            printf("Player 0 won!\n");
+        } else if (score1 > score0) {
+            printf("Player 1 won!\n");
+        } else {
+            printf("Tie!\n");
+        }
 
     }
     return 0;
