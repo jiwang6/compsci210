@@ -57,7 +57,7 @@ int getMaxYardsPerCarryIndex(int userArray1[MAXPLAYERS], int userArray2[MAXPLAYE
     int maxIndex = 0;
     double max = 0.1;
     for (int i = 0; i < numPlayers; i++){
-        if (max < userArray1[i]/userArray2[i]) {
+        if (max < (double)userArray1[i]/userArray2[i]) {
             if (userArray2[i] > amount) {
                 max = (double)userArray1[i]/userArray2[i];
                 maxIndex = i;
