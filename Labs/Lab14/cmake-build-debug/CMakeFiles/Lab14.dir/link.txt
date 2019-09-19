@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Lab14.dir/lab14functs.c.o CMakeFiles/Lab14.dir/lab14fbFuncts.c.o CMakeFiles/Lab14.dir/lab14main.c.o  -o Lab14.exe -Wl,--out-implib,libLab14.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
