@@ -1,6 +1,11 @@
-//
-// Created by C22Jim.Wang on 18-Sep-19.
-//
+/** lab14main.c
+* ===========================================================
+* Name: C3C Jim Wang, 18 September 2019
+* Section: T3A
+* Project: Lab14
+* Purpose: Practice 1-Dimensional Arrays
+* ===========================================================
+*/
 
 #include "lab14fbFuncts.h"
 #include "lab14functs.h"

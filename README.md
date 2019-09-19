@@ -23,6 +23,10 @@ While loop practice. Nothing special about this lab.
 ### Lab13
 Pointer practice. This sucks.
 
+### Lab14
+Array practice. The instructors' implementation of this lab was **way** too clunky for this simple lab. Also, 
+this lab has a severe lack of documentation on my part.
+
 ## PEX
 What does PEX really stand for? No one really knows.
 These are projects that aren't really attached to any particular lesson.

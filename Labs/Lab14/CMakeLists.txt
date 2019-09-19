@@ -3,4 +3,4 @@ project(Lab14)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab14 lab14functs.c lab14fbFuncts.c lab14functs.c lab14functs.h lab14main.c fbData.txt)
+add_executable(Lab14 lab14sssfuncts.c lab14fbFuncts.c lab14functs.c lab14functs.h lab14main.c fbData.txt)
