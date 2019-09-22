@@ -27,8 +27,8 @@ int readData(int fbData[][DATACOLS]) {
 
     // Open file
     printf("Opening file \"fbData.txt\".\n");
-    inFile = fopen("../Labs/Lab14/fbData.txt", "r"); // use this for working in CLion (comment when you submit)
-//    inFile = fopen("fbData.txt", "r"); // use this for submission (UN-comment when you submit)
+    //inFile = fopen("C:/Users/C22JIM.WANG/Documents/compsci210/Labs/Lab14/fbData.txt", "r"); // use this for working in CLion (comment when you submit)
+    inFile = fopen("fbData.txt", "r"); // use this for submission (UN-comment when you submit)
 
 
     if (inFile == NULL) {

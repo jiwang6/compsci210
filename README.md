@@ -28,7 +28,8 @@ Array practice. The instructors' implementation of this lab was **way** too clun
 this lab has a severe lack of documentation on my part.
 
 ### Lab15
-More array practice.
+More array practice. Just an iteration on the last lab to make it work for a single 2-D array rather than multiple 1-D
+arrays.
 
 ## PEX
 What does PEX really stand for? No one really knows.
@@ -40,5 +41,5 @@ so there's barely any documentation, which I'll need to fix. GG No Re, I hate au
 grader.
 
 Also, there were some functions that would've worked WAY BETTER with pass by reference 
-functions! We already did that so why didn't zybooks allow it? only the dean knows
+functions! We already did that so why didn't zybooks allow it? Only the dean knows
 and he left on Friday.
