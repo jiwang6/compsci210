@@ -1,6 +1,6 @@
 # compsci210
-This repo is to document all labs and PEXs created
-in cs210, intro to C.
+All labs and PEXs in this repo recieved full crediit. Please document if 
+using as reference.
 
 ## Labs
 Labs due the night before every lesson, starting at L09.
@@ -26,6 +26,9 @@ Pointer practice. This sucks.
 ### Lab14
 Array practice. The instructors' implementation of this lab was **way** too clunky for this simple lab. Also, 
 this lab has a severe lack of documentation on my part.
+
+### Lab15
+More array practice.
 
 ## PEX
 What does PEX really stand for? No one really knows.

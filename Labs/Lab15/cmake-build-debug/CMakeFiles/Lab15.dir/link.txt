@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Lab15.dir/lab15main.c.o CMakeFiles/Lab15.dir/lab15fbFuncts.c.o CMakeFiles/Lab15.dir/lab15functs.c.o  -o Lab15.exe -Wl,--out-implib,libLab15.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
