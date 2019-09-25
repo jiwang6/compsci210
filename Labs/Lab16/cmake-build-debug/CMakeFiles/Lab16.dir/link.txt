@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Lab16.dir/lab16main.c.o CMakeFiles/Lab16.dir/lab16functs.c.o  -o Lab16.exe -Wl,--out-implib,libLab16.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
