@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/a.dir/pa2main.c.o CMakeFiles/a.dir/pa2functs.c.o  -o a.exe -Wl,--out-implib,liba.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
