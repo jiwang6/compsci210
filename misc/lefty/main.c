@@ -9,15 +9,18 @@ int main() {
     int test[stringlength];
     //printf("%d", stringlength);
 
+    /*
+    printf("E");
+
     for(int i = 0; i < stringlength + 1; i++){
         for (int i = 0; i < 256; i++ ){
-            printf("EQSE");
+            printf("QSE");
         }
     }
 
     for(int i = 0; i < stringlength; i++) {
         printf("A");
-    }
+    }*/
 
     int k = 0;
 
