@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char teamNames[] = "c21andrewlemkec21joshuablockc21lukeruanc21thomasgalliganic22jimwang";
+    char teamNames[] = "restriction is a mindset";
     //printf("%s", teamNames); //test if name is scanned correctly
     int stringlength = strlen(teamNames);
 
