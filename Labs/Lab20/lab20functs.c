@@ -22,7 +22,6 @@ void printTable(double degFlow, double degFhigh, double degFstep) {
         printf("|%9.2lf", fToC(degFlow));
         printf("|%9.2lf|\n", cToK(fToC(degFlow)));
 
-
         degFlow += degFstep;
     }
 

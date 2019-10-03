@@ -24,7 +24,7 @@ While loop practice. Nothing special about this lab.
 Pointer practice. This sucks.
 
 ### Lab14
-Array practice. The instructors' implementation of this lab was **way** too clunky for this simple lab. Also,
+Array practice. Implementation of this lab was **way** too clunky for this simple lab. Also,
 this lab has a severe lack of documentation on my part.
 
 ### Lab15
@@ -35,7 +35,11 @@ arrays.
 Some programming practice for PA2.
 
 ### Lab19
-Character array practice. I have no idea whatsoever how the last function works.
+Character array practice. Last function is jank.
+
+### Lab20
+Aside from the 3 lines of formatted output, I honestly have no idea what the point of this lab was. Just repeated 
+concepts previously practiced.
 
 ## PEX
 What does PEX really stand for? No one really knows.
@@ -54,7 +58,7 @@ and he left on Friday.
 Random C projects I might create for cyber or whatever.
 
 ### lefty
-Writes reskinned brainfuck code, part of President's Challenge 2019.
+Writes essentially brainf**k, but for left handed people!. Part of President's Cup 2019.
 
 ### PA2
-Don't worry about it :^).
+Don't worry about it :^)
