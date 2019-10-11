@@ -1,5 +1,5 @@
 # compsci210
-All labs and PEXs in this repo recieved full crediit. Please document if
+All labs and PEXs in this repo received full credit. Please document if
 using as reference.
 
 ## Labs
@@ -38,8 +38,12 @@ Some programming practice for PA2.
 Character array practice. Last function is jank.
 
 ### Lab20
-Aside from the 3 lines of formatted output, I honestly have no idea what the point of this lab was. Just repeated 
+Aside from the 3 lines of formatted output, I honestly have no idea what the point of this lab was. Just repeated
 concepts previously practiced.
+
+### Lab22
+Completion of lab relied heavily on other students. Need to review file IO and datastructures for future labs and 
+assessments.
 
 ## PEX
 What does PEX really stand for? No one really knows.
@@ -58,7 +62,7 @@ and he left on Friday.
 Random C projects I might create for cyber or whatever.
 
 ### lefty
-Writes essentially brainf**k, but for left handed people!. Part of President's Cup 2019.
+Writes essentially brainf**k, but for left handed people! Part of President's Cup 2019.
 
 ### PA2
 Don't worry about it :^)
