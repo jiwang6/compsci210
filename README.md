@@ -45,6 +45,10 @@ concepts previously practiced.
 Completion of lab relied heavily on other students. Need to review file IO and datastructures for future labs and 
 assessments.
 
+### Lab23
+Mainly file IO practice with a tinge of memory allocation. Lab24 should have more practice with malloc, calloc, free,
+etc.
+
 ## PEX
 What does PEX really stand for? No one really knows.
 These are projects that aren't really attached to any particular lesson.
@@ -62,7 +66,9 @@ and he left on Friday.
 Random C projects I might create for cyber or whatever.
 
 ### lefty
-Writes essentially brainf**k, but for left handed people! Part of President's Cup 2019.
+Writes reskinned brainf**k, but for left handed people! Part of President's Cup Team Round 1, 2019.
 
 ### PA2
 Don't worry about it :^)
+
+Honor? I hardly know 'er!
