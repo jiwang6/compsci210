@@ -35,8 +35,6 @@ int main() {
      * function below.  Try calling it second time. Why is the
      * random number generator not seeded a second time?
      */
-     seedGenerator();
-
 
     /** TASK 1 - Allocate an array of INIT_SIZE integers
      * using the malloc() function call.
@@ -50,13 +48,13 @@ int main() {
     seedGenerator();
     srand(0);
 
-    int randNum = (rand() % 999) + 1;
+    int randNum = 800; //(rand() % 999) + 1;
 
     int doubled = fillArray(intArray, INIT_SIZE, randNum);
 
     printf("Initial size: %d\n", INIT_SIZE);
     printf("Data set size: %d\n", randNum);
-    printf("Number of times doubled: %d", doubled);
+    printf("Number of times doubled: %d\n", doubled);
 
 
     /** TASK 3 - complete the fillArray() function implementation
@@ -75,7 +73,11 @@ int main() {
      *     on your random number generation in task 2.  It should be between
      *     1 and 1000 inclusive.
      */
-
+/*
+    for (int i = 0; i < 100; i++) {
+        printf("%d ", intArray[i]);
+    }
+*/
     return 0;
 }
 
@@ -107,6 +109,7 @@ int fillArray(int *array, int arraySize, int dataSetSize) {
 
     return doubleAmount;
 }
+
 
 /** ----------------------------------------------------------
  * seedGenerator() - seeds the random number generator only once.

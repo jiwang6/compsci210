@@ -42,12 +42,16 @@ Aside from the 3 lines of formatted output, I honestly have no idea what the poi
 concepts previously practiced.
 
 ### Lab22
-Completion of lab relied heavily on other students. Need to review file IO and datastructures for future labs and 
+Completion of lab relied heavily on other students. Need to review file IO and datastructures for future labs and
 assessments.
 
 ### Lab23
 Mainly file IO practice with a tinge of memory allocation. Lab24 should have more practice with malloc, calloc, free,
 etc.
+
+### Lab24
+Literally just realloc() practice. Check the code not working at all and me failing
+this class tbh lmfao.
 
 ## PEX
 What does PEX really stand for? No one really knows.
@@ -61,6 +65,9 @@ grader.
 Also, there were some functions that would've worked WAY BETTER with pass by reference
 functions! We already did that so why didn't zybooks allow it? Only the dean knows
 and he left on Friday.
+
+### PEX2
+i'm about y33t myself into the abyss because of this class
 
 ## Misc
 Random C projects I might create for cyber or whatever.

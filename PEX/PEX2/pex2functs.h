@@ -7,10 +7,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <errno.h>
 
-
-typedef struct DNA {
+typedef struct DNA_struct{
     char humanDNA[MAX_LENGTH];
     char mouseDNA[MAX_LENGTH];
     char catDNA[MAX_LENGTH];
