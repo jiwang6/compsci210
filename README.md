@@ -1,10 +1,11 @@
 # compsci210
-All labs and PEXs in this repo received full credit. Please document if
-using as reference.
+Follow along as I slowly lose my sanity and start questioning my spiritual upbringing
+just because of this class. Document me if you use as reference so I don't get an
+honor hit please thank you.
 
 ## Labs
-Labs due the night before every lesson, starting at L09.
-Main purpose is to practice skills learned in class.
+Skills practice from ZYBooks. Very strong inverse correlation between the lab number
+and quality of code.
 
 ### Lab09
 Kind of a mess. Messed around in CLion with, getting used to making header,
@@ -67,7 +68,7 @@ functions! We already did that so why didn't zybooks allow it? Only the dean kno
 and he left on Friday.
 
 ### PEX2
-i'm about y33t myself into the abyss because of this class
+i'm about y33t myself into the abyss because of this class. My DNA just goes gg.
 
 ## Misc
 Random C projects I might create for cyber or whatever.
