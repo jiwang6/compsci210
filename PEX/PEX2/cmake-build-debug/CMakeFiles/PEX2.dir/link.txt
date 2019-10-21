@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/PEX2.dir/pex2main.c.o CMakeFiles/PEX2.dir/pex2functs.c.o  -o PEX2.exe -Wl,--out-implib,libPEX2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

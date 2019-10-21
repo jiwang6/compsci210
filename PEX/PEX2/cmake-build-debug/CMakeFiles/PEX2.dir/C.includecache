@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX2/pex2functs.c
+pex2functs.h
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX2/pex2functs.h
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX2/pex2functs.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX2/pex2main.c
+pex2functs.h
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/PEX/PEX2/pex2functs.h
+

@@ -101,7 +101,7 @@ int fillArray(int *array, int arraySize, int dataSetSize) {
 
     array = (int*) realloc(array, sizeof(int) * arraySize);
 
-    for (int i = 0; i < dataSetSize; i++) {
+    for (int i = 0; i < arraySize; i++) {
         array[i] = rand();
     }
 
