@@ -7,10 +7,8 @@ int main() {
 
     readFile(filename, sequence);
 
-    printf("Hello, World!\n");
-    printf("human: %s\n", sequence->humanDNA);
-    printf("mouse: %s\n", sequence->mouseDNA);
-    printf("cat: %s\n", sequence->catDNA);
+    printf("%lf",similarityScore(sequence->humanDNA, sequence->mouseDNA));
+
 
     return 0;
 }
