@@ -18,15 +18,15 @@ int hammingDistance(char* str1, char* str2) {
 
     if (strlen(str1) != strlen(str2)) {
         return -1;
-    }
-
-    for (int i = 0; i < strlen(str1); i++) {
-        if (str1[i] != str2[i]) {
-            ham++;
+    } else {
+        for (int i = 0; i < strlen(str1); i++) {
+            if (str1[i] != str2[i]) {
+                ham++;
+            }
         }
-    }
 
-    return ham;
+        return ham;
+        }
 }
 
 float similarityScore(char* seq1, char* seq2) {
@@ -34,21 +34,46 @@ float similarityScore(char* seq1, char* seq2) {
         return -1;
     }
 
-    return (float)(strlen(seq1)-hammingDistance(seq1, seq2))/strlen(seq1);
+    return (float)(strlen(seq1) - hammingDistance(seq1, seq2)) / (float)strlen(seq1);
 }
 
 int countMatches(char* genome, char* seq, float minScore) {
-    int tempScore;
-    int numMatches = 0;
-    
-    if (tempScore >= minScore) {
-        numMatches++;
+    int numMatches = 0, seqL = (int)strlen(seq);
+    char testSeq[20];
+    char *tempG = genome;
+
+    while (strlen(tempG) >= seqL) {
+        strncpy(testSeq, tempG, seqL);
+        testSeq[seqL] = '\0'; //I HATE YOU
+
+        if (similarityScore(testSeq, seq) >= minScore) {
+            numMatches++;
+        }
+        tempG++;
     }
 
-    return numMatches
+    return numMatches;
+}
+float findBestMatch(char* genome, char* seq) {
+    int seqL = (int)strlen(seq);
+    char testSeq[20];
+    float maxScore = 0;
+    char *tempG = genome;
+
+    while (strlen(tempG) >= seqL) {
+        strncpy(testSeq, tempG, seqL);
+        testSeq[seqL] = '\0'; //I HATE YOU
+
+        if (similarityScore(testSeq, seq) > maxScore) {
+            maxScore = similarityScore(testSeq, seq);
+        }
+        tempG++;
+    }
+
+    return maxScore;
 }
 
+
 /* function TODO
-float findBestMatch(char* genome, char* seq);
 int findBestGenome(char* genome1, char* genome2, char* genome3, char* unknownSeq);
  */

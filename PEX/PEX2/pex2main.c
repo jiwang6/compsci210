@@ -7,7 +7,8 @@ int main() {
 
     readFile(filename, sequence);
 
-    printf("%lf",similarityScore(sequence->humanDNA, sequence->mouseDNA));
+    printf("score: %lf\n", similarityScore("A","A"));
+    printf("matches: %d\n", countMatches("AA","A", 1));
 
 
     return 0;
