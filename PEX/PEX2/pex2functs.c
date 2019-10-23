@@ -74,7 +74,8 @@ float findBestMatch(char* genome, char* seq) {
 }
 
 int findBestGenome(char* genome1, char* genome2, char* genome3, char* unknownSeq) {
-    float g1 = findBestMatch(genome1, unknownSeq), g2 = findBestMatch(genome2, unknownSeq), g3 = findBestMatch(genome3, unknownSeq);
+    float g1 = findBestMatch(genome1, unknownSeq),
+    g2 = findBestMatch(genome2, unknownSeq), g3 = findBestMatch(genome3, unknownSeq);
     if (g1 > g2 && g1 > g3) {
         return 1;
     } else if (g2 > g1 && g2 > g3) {
