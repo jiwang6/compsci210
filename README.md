@@ -54,12 +54,15 @@ etc.
 Literally just realloc() practice. Check the code not working at all and me failing
 this class tbh lmfao.
 
+### Lab25
+Uhhhhhh double pointers and malloc. We need pointers to other character pointers damnit!
+
 ## PEX
 What does PEX really stand for? No one really knows.
 These are projects that aren't really attached to any particular lesson.
 
 ### PEX1
-Pigs! It's a gambling man's game and a boring one at that. Finished in one afternoon
+Pigs! Gambling game...? Finished in one afternoon
 so there's barely any documentation, which I'll need to fix. GG No Re, I hate auto
 grader.
 
@@ -68,15 +71,14 @@ functions! We already did that so why didn't zybooks allow it? Only the dean kno
 and he left on Friday.
 
 ### PEX2
-i'm about y33t myself into the abyss because of this class. My DNA just goes gg.
+Genome sequencing lab. Basically just comparing a sequence with sections from a larger genome or whatever.
+Only important thing: strings are characte pointers and can be incremented.
 
 ## Misc
-Random C projects I might create for cyber or whatever.
+Random C projects I might create for cyber or whatever. 我们在做什么??
 
 ### lefty
 Writes reskinned brainf**k, but for left handed people! Part of President's Cup Team Round 1, 2019.
 
 ### PA2
 Don't worry about it :^)
-
-Honor? I hardly know 'er!
