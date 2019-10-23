@@ -72,10 +72,10 @@ and he left on Friday.
 
 ### PEX2
 Genome sequencing lab. Basically just comparing a sequence with sections from a larger genome or whatever.
-Only important thing: strings are characte pointers and can be incremented.
+Only important thing: strings are character pointers and can be incremented.
 
 ## Misc
-Random C projects I might create for cyber or whatever. 我们在做什么??
+Random C projects I might create for cyber or whatever.
 
 ### lefty
 Writes reskinned brainf**k, but for left handed people! Part of President's Cup Team Round 1, 2019.
