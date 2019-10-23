@@ -3,10 +3,10 @@
 int main() {
     int numLines = getNumLines(FILENAME);
 
-    USAFBaseData** pointer = (USAFBaseData**)malloc(sizeof(USAFBaseData*) * numLines);
+    USAFBaseData** pointer = malloc(sizeof(USAFBaseData*) * numLines);
 
     for (int i = 0; i < numLines; i++) {
-        pointer[i] = malloc(sizeof(USAFBaseData));
+        pointer[i] = (USAFBaseData*) malloc(sizeof(USAFBaseData));
     }
 
     readFile(FILENAME, pointer, numLines);
