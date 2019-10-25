@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab26/lab26.c
+lab26.h
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab26/lab26.h
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab26/lab26.h
+vector.h
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab26/vector.h
+stdio.h
+-
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab26/vector.h
+
