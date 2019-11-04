@@ -57,6 +57,9 @@ this class tbh lmfao.
 ### Lab25
 Uhhhhhh double pointers and malloc. We need pointers to other character pointers damnit!
 
+### Lab28
+Literally the most autistic and clunky code I've ever written. Doesn't even pass ZyBooks.
+
 ## PEX
 What does PEX really stand for? No one really knows.
 These are projects that aren't really attached to any particular lesson.
