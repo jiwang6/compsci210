@@ -27,8 +27,8 @@ int numVowels(char *in);
 
 char *sortString(char *in);
 
-int readFile(char fileName[], EmployeeBD **empStruct, int numLines);
+int readFile(char fileName[], EmployeeBD *empStruct, int numLines);
 
-int IDEmpBDMonth(EmployeeBD **empStruct, int numLines, int month);
+int IDEmpBDMonth(EmployeeBD *empStruct, int numLines, int month);
 
 #endif //MYEXE_LAB28_H

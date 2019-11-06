@@ -60,6 +60,9 @@ Uhhhhhh double pointers and malloc. We need pointers to other character pointers
 ### Lab28
 Literally the most autistic and clunky code I've ever written. Doesn't even pass ZyBooks.
 
+### Lab30
+Intro to recursion! For the write up of this lab, see Lab30 in README.md
+
 ## PEX
 What does PEX really stand for? No one really knows.
 These are projects that aren't really attached to any particular lesson.
@@ -85,3 +88,8 @@ Writes reskinned brainf**k, but for left handed people! Part of President's Cup 
 
 ### PA2
 Don't worry about it :^)
+
+### PA3
+SOMEONE DEADASS GOT UP AND LEFT TO DROP THE CLASS DURING THIS GR. 
+
+VERY BROKEN CODE FOR A VERY BROKEN SPIRIT

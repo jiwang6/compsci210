@@ -3,7 +3,7 @@
 int main() {
     int numLines = getNumLines(FILENAME);
 
-    USAFBaseData** pointer = malloc(sizeof(USAFBaseData*) * numLines);
+    USAFBaseData** pointer = malloc(sizeof(USAFBaseData*) * numLines); //double pt
 
     for (int i = 0; i < numLines; i++) {
         pointer[i] = (USAFBaseData*) malloc(sizeof(USAFBaseData));

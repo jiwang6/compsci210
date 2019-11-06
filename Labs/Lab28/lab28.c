@@ -25,11 +25,7 @@ int main(void) {
     printf("%d\n", numLines);
 
 
-    EmployeeBD **pointer = (EmployeeBD **) malloc(sizeof(EmployeeBD *) * numLines);
-
-    for (int i = 0; i < numLines; i++) {
-        pointer[i] = (EmployeeBD *) malloc(sizeof(EmployeeBD));
-    }
+    EmployeeBD *pointer = (EmployeeBD *) malloc(sizeof(EmployeeBD) * numLines); //single pointer
 
     printf("%d\n", readFile(FILENAME, pointer, numLines));
 
@@ -70,14 +66,14 @@ int main(void) {
 
 
     for (int i = 0; i < numLines; i++) {
-        printf("%s", pointer[i]->firstName);
-        printf("%s", pointer[i]->lastName);
-        printf("%s", pointer[i]->birthMonth);
-        printf("%d\n", pointer[i]->birthDate);
+        printf("%s", pointer[i].firstName);
+        printf("%s", pointer[i].lastName);
+        printf("%s", pointer[i].birthMonth);
+        printf("%d\n", pointer[i].birthDate);
     }
 
 
-    printf("number of matching records: %d\n", IDEmpBDMonth(pointer, numLines, 2)); //chart funct
+    //printf("number of matching records: %d\n", IDEmpBDMonth(pointer, numLines, 2)); //chart funct
     return 0;
 }
 
@@ -161,16 +157,16 @@ char *sortString(char *in) { //this function hella jank
     return sortedIn;
 }
 
-int readFile(char fileName[], EmployeeBD **empStruct, int numLines) {
+int readFile(char fileName[], EmployeeBD *empStruct, int numLines) {
     int retVal = 0;
 
     FILE *fp = fopen(fileName, "r");
 
     for (int i = 0; i < numLines; i++) {
-        fscanf(fp, "%s", empStruct[i]->firstName);
-        fscanf(fp, "%s", empStruct[i]->lastName);
-        fscanf(fp, "%s", empStruct[i]->birthMonth);
-        fscanf(fp, "%d", &empStruct[i]->birthDate);
+        fscanf(fp, "%s", empStruct[i].firstName);
+        fscanf(fp, "%s", empStruct[i].lastName);
+        fscanf(fp, "%s", empStruct[i].birthMonth);
+        fscanf(fp, "%d", &empStruct[i].birthDate);
         retVal++;
     }
 
@@ -178,7 +174,7 @@ int readFile(char fileName[], EmployeeBD **empStruct, int numLines) {
 }
 
 //empStruct[i]->birthMonth
-
+/*
 int IDEmpBDMonth(EmployeeBD **empStruct, int numLines, int month) { //even more jank function I hate it
     printf("Requested Birthdays are:\n"
            "Lastname\tFirstname\tBirthday\n"
@@ -278,4 +274,4 @@ int IDEmpBDMonth(EmployeeBD **empStruct, int numLines, int month) { //even more 
     }
 
     return retVal;
-}
+}*/
