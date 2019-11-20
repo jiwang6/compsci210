@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab31.dir/main.c.o"
+  "CMakeFiles/Lab31.dir/lab31.c.o"
   "Lab31.exe"
   "Lab31.pdb"
   "libLab31.dll.a"

@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab3
+# Target rules for targets named Lab31
 
 # Build rule for target.
-Lab3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Lab3
-.PHONY : Lab3
+Lab31: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab31
+.PHONY : Lab31
 
 # fast build rule for target.
-Lab3/fast:
-	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/build
-.PHONY : Lab3/fast
+Lab31/fast:
+	$(MAKE) -f CMakeFiles/Lab31.dir/build.make CMakeFiles/Lab31.dir/build
+.PHONY : Lab31/fast
 
 lab31.o: lab31.c.o
 
@@ -129,7 +129,7 @@ lab31.o: lab31.c.o
 
 # target to build an object file
 lab31.c.o:
-	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/lab31.c.o
+	$(MAKE) -f CMakeFiles/Lab31.dir/build.make CMakeFiles/Lab31.dir/lab31.c.o
 .PHONY : lab31.c.o
 
 lab31.i: lab31.c.i
@@ -138,7 +138,7 @@ lab31.i: lab31.c.i
 
 # target to preprocess a source file
 lab31.c.i:
-	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/lab31.c.i
+	$(MAKE) -f CMakeFiles/Lab31.dir/build.make CMakeFiles/Lab31.dir/lab31.c.i
 .PHONY : lab31.c.i
 
 lab31.s: lab31.c.s
@@ -147,7 +147,7 @@ lab31.s: lab31.c.s
 
 # target to generate assembly for a file
 lab31.c.s:
-	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/lab31.c.s
+	$(MAKE) -f CMakeFiles/Lab31.dir/build.make CMakeFiles/Lab31.dir/lab31.c.s
 .PHONY : lab31.c.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Lab3"
+	@echo "... Lab31"
 	@echo "... edit_cache"
 	@echo "... lab31.o"
 	@echo "... lab31.i"

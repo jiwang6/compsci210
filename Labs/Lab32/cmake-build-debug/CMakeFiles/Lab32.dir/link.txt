@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Lab32.dir/lab32.c.o  -o Lab32.exe -Wl,--out-implib,libLab32.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

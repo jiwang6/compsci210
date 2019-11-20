@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Lab34.dir/lab34.c.o  -o Lab34.exe -Wl,--out-implib,libLab34.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

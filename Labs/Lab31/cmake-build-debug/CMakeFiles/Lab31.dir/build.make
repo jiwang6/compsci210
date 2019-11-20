@@ -57,27 +57,27 @@ include CMakeFiles/Lab31.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab31.dir/flags.make
 
-CMakeFiles/Lab31.dir/main.c.o: CMakeFiles/Lab31.dir/flags.make
-CMakeFiles/Lab31.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab31/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Lab31.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab31.dir/main.c.o   -c /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab31/main.c
+CMakeFiles/Lab31.dir/lab31.c.o: CMakeFiles/Lab31.dir/flags.make
+CMakeFiles/Lab31.dir/lab31.c.o: ../lab31.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab31/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Lab31.dir/lab31.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab31.dir/lab31.c.o   -c /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab31/lab31.c
 
-CMakeFiles/Lab31.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab31.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab31/main.c > CMakeFiles/Lab31.dir/main.c.i
+CMakeFiles/Lab31.dir/lab31.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab31.dir/lab31.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab31/lab31.c > CMakeFiles/Lab31.dir/lab31.c.i
 
-CMakeFiles/Lab31.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab31.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab31/main.c -o CMakeFiles/Lab31.dir/main.c.s
+CMakeFiles/Lab31.dir/lab31.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab31.dir/lab31.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab31/lab31.c -o CMakeFiles/Lab31.dir/lab31.c.s
 
 # Object files for target Lab31
 Lab31_OBJECTS = \
-"CMakeFiles/Lab31.dir/main.c.o"
+"CMakeFiles/Lab31.dir/lab31.c.o"
 
 # External object files for target Lab31
 Lab31_EXTERNAL_OBJECTS =
 
-Lab31.exe: CMakeFiles/Lab31.dir/main.c.o
+Lab31.exe: CMakeFiles/Lab31.dir/lab31.c.o
 Lab31.exe: CMakeFiles/Lab31.dir/build.make
 Lab31.exe: CMakeFiles/Lab31.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab31/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Lab31.exe"
