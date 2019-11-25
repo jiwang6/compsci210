@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/misc/pa4/pa4functs.h
+stdint.h
+-
+stdio.h
+-
+string.h
+-
+
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/misc/pa4/pa4main.c
+pa4functs.h
+/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/misc/pa4/pa4functs.h
+

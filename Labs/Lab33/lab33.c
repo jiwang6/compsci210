@@ -17,7 +17,7 @@ int main() {
     double z = 8.53677197180176092605993700916E304;
 
     printf("x = ");
-    print_bits(&x, sizeof(x));
+    print_bits(&x, sizeof(x)); //sizeof returns number of bytes 0x00000000
 
     printf("y = ");
     print_bits(&y, sizeof(y));
