@@ -1,3 +1,0 @@
-/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab24/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab24/cmake-build-debug/CMakeFiles/Lab24.dir
-/cygdrive/c/Users/C22Jim.Wang/Documents/compsci210/Labs/Lab24/cmake-build-debug/CMakeFiles/edit_cache.dir
